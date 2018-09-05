@@ -1,3 +1,6 @@
+#adds an ID to each child in a json file based off of depth 
+#(e.g. the fourth child of the third child of the first child would have "id: 1.3.4")
+
 import json
    
 with open('10%threshold_data.json', 'r+') as data:
